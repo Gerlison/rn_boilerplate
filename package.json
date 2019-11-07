@@ -1,6 +1,6 @@
 {
   "name": "@gerlison/rn-boilerplate",
-  "version": "0.0.1",
+  "version": "0.1.2",
   "description": "Template para projetos em React Native, com Estrutura de Pastas customizada, Estilos Globais, ESLint + Babel Plugin Module Resolver, Wix Native Navigation, Redux, Redux Thunk, Reactotron e Axios configurados.",
   "keywords": [
     "react-native",
