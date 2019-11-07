@@ -1,0 +1,20 @@
+{
+  "@react-native-community/async-storage": "latest",
+  "axios": "latest",
+  "lodash": "latest",
+  "moment": "latest",
+  "react": "latest",
+  "react-native": "latest",
+  "react-native-gesture-handler": "latest",
+  "react-native-reanimated": "latest",
+  "react-native-screens": "latest",
+  "react-native-vector-icons": "latest",
+  "react-navigation": "latest",
+  "react-navigation-stack": "latest",
+  "react-redux": "latest",
+  "redux": "latest",
+  "redux-persist": "latest",
+  "redux-thunk": "latest",
+  "reselect": "latest",
+  "styled-components": "latest"
+}
