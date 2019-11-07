@@ -1,0 +1,45 @@
+{
+  "name": "@gerlison/rn-boilerplate",
+  "version": "0.0.1",
+  "dependencies": {
+    "@react-native-community/async-storage": "latest",
+    "axios": "latest",
+    "lodash": "latest",
+    "moment": "latest",
+    "react": "latest",
+    "react-native": "latest",
+    "react-native-gesture-handler": "latest",
+    "react-native-reanimated": "latest",
+    "react-native-screens": "latest",
+    "react-native-vector-icons": "latest",
+    "react-navigation": "latest",
+    "react-navigation-stack": "latest",
+    "react-redux": "latest",
+    "redux": "latest",
+    "redux-persist": "latest",
+    "redux-thunk": "latest",
+    "reselect": "latest",
+    "styled-components": "latest"
+  },
+  "devDependencies": {
+    "@babel/core": "latest",
+    "@babel/runtime": "latest",
+    "@babel/preset-flow": "latest",
+    "babel-plugin-module-resolver": "latest",
+    "babel-plugin-styled-components": "latest",
+    "@react-native-community/eslint-config": "latest",
+    "eslint": "latest",
+    "eslint-import-resolver-babel-module": "latest",
+    "eslint-plugin-flowtype": "latest",
+    "eslint-plugin-import": "latest",
+    "eslint-plugin-react": "latest",
+    "eslint-plugin-react-native": "latest",
+    "metro-react-native-babel-preset": "latest",
+    "flow-bin": "0.105.0"
+  },
+  "rnpm": {
+    "assets": [
+      "./src/assets/fonts/"
+    ]
+  }
+}

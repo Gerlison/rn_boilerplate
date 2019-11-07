@@ -1,12 +1,7 @@
 {
-  "name": "react-native-template-rn-boilerplate",
+  "name": "@gerlison/rn-boilerplate",
   "version": "0.0.1",
   "description": "Template para projetos em React Native, com Estrutura de Pastas customizada, Estilos Globais, ESLint + Babel Plugin Module Resolver, Wix Native Navigation, Redux, Redux Thunk, Reactotron e Axios configurados.",
-  "rnpm": {
-    "assets": [
-      "./src/assets/fonts/"
-    ]
-  },
   "keywords": [
     "react-native",
     "template",
@@ -18,10 +13,7 @@
     "redux-thunk",
     "rocketseat"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Gerlison/rn_boilerplate"
-  },
+  "repository": "git@github.com:Gerlison/rn_boilerplate.git",
   "homepage": "https://github.com/Gerlison/rn_boilerplate#readme",
   "author": "Gerlison <franciscojerlison1@gmail.com>",
   "license": "MIT"
