@@ -25,12 +25,7 @@ export const Label = styled(Text)`
   font-size: ${sizing['SMALL']}px;
 `;
 
-export const SmallLoading = styled.ActivityIndicator.attrs(props => ({
-  size: 'small',
-  color: colors[props.color || 'PRIMARY']
-}))``;
-
-export const LargeLoading = styled.ActivityIndicator.attrs(props => ({
-  size: 'large',
+export const Loading = styled.ActivityIndicator.attrs(props => ({
+  size: props.size || 'small',
   color: colors[props.color || 'PRIMARY']
 }))``;
