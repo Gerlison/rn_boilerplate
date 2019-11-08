@@ -1,6 +1,4 @@
 {
-  "name": "@gerlison/rn-boilerplate",
-  "version": "0.0.1",
   "dependencies": {
     "@react-native-community/async-storage": "latest",
     "axios": "latest",
