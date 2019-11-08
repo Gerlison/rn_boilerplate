@@ -7,5 +7,5 @@ Template using react-navigation for React Native projects.
 
 Just run it in your terminal and that's all.
 ```
-npx @react-native-community/cli init ProjectName --template 
+npx @react-native-community/cli init ProjectName --template @gerlison/rn-boilerplate
 ```
