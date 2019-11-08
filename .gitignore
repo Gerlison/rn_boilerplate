@@ -1,0 +1,12 @@
+# npm packages
+#
+node_modules/
+package-lock.json
+yarn-lock.json
+
+# react-native config files
+#
+.watchmanconfig
+metro.config.js
+app.json
+.buckconfig

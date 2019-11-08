@@ -14,4 +14,4 @@ const BoilerPlateStack = createStackNavigator(
 );
 
 
-export default createAppContainer(BoilerPlateStack);
+export default BoilerPlateStack;

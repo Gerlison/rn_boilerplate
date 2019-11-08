@@ -35,7 +35,7 @@
     "eslint-plugin-react": "latest",
     "eslint-plugin-react-native": "latest",
     "metro-react-native-babel-preset": "latest",
-    "flow-bin": "0.105.0"
+    "flow-bin": "0.105.2"
   },
   "rnpm": {
     "assets": [
