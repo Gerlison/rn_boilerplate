@@ -1,7 +1,11 @@
+## HAVING SOME TROUBLE WITH PROJECT NAME, PROBABLY IT'S NOT WORKING FOR NOW. WORKING ON FIX.
+
 # RN-BOILERPLATE
 Template using react-navigation for React Native projects.
 
 > README BEING WRITTEN...
+
+
 
 ## INSTALATION
 
