@@ -14,11 +14,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React"
 
-@interface rn_boilerplateTests : XCTestCase
+@interface projectnameTests : XCTestCase
 
 @end
 
-@implementation rn_boilerplateTests
+@implementation projectnameTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL(^)(UIView *view))test
 {

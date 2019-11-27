@@ -1,4 +1,12 @@
 {
+  "name": "ProjectName",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start"
+  },
   "dependencies": {
     "@react-native-community/async-storage": "latest",
     "axios": "latest",
@@ -34,10 +42,5 @@
     "eslint-plugin-react-native": "latest",
     "metro-react-native-babel-preset": "latest",
     "flow-bin": "0.105.2"
-  },
-  "rnpm": {
-    "assets": [
-      "./src/assets/fonts/"
-    ]
   }
 }

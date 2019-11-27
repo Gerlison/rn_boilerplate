@@ -1,4 +1,4 @@
-package com.rn_boilerplate;
+package com.projectname;
 
 import android.app.Application;
 import android.content.Context;

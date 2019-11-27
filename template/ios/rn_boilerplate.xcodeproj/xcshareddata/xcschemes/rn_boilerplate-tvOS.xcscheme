@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "rn_boilerplate-tvOS.app"
-               BlueprintName = "rn_boilerplate-tvOS"
-               ReferencedContainer = "container:rn_boilerplate.xcodeproj">
+               BuildableName = "projectname-tvOS.app"
+               BlueprintName = "projectname-tvOS"
+               ReferencedContainer = "container:projectname.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "rn_boilerplate-tvOSTests.xctest"
-               BlueprintName = "rn_boilerplate-tvOSTests"
-               ReferencedContainer = "container:rn_boilerplate.xcodeproj">
+               BuildableName = "projectname-tvOSTests.xctest"
+               BlueprintName = "projectname-tvOSTests"
+               ReferencedContainer = "container:projectname.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -61,9 +61,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "rn_boilerplate-tvOSTests.xctest"
-               BlueprintName = "rn_boilerplate-tvOSTests"
-               ReferencedContainer = "container:rn_boilerplate.xcodeproj">
+               BuildableName = "projectname-tvOSTests.xctest"
+               BlueprintName = "projectname-tvOSTests"
+               ReferencedContainer = "container:projectname.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -71,9 +71,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "rn_boilerplate-tvOS.app"
-            BlueprintName = "rn_boilerplate-tvOS"
-            ReferencedContainer = "container:rn_boilerplate.xcodeproj">
+            BuildableName = "projectname-tvOS.app"
+            BlueprintName = "projectname-tvOS"
+            ReferencedContainer = "container:projectname.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "rn_boilerplate-tvOS.app"
-            BlueprintName = "rn_boilerplate-tvOS"
-            ReferencedContainer = "container:rn_boilerplate.xcodeproj">
+            BuildableName = "projectname-tvOS.app"
+            BlueprintName = "projectname-tvOS"
+            ReferencedContainer = "container:projectname.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -113,9 +113,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "rn_boilerplate-tvOS.app"
-            BlueprintName = "rn_boilerplate-tvOS"
-            ReferencedContainer = "container:rn_boilerplate.xcodeproj">
+            BuildableName = "projectname-tvOS.app"
+            BlueprintName = "projectname-tvOS"
+            ReferencedContainer = "container:projectname.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
