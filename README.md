@@ -19,7 +19,7 @@ To create a project with this template just run the following on your terminal:
 $ npx @react-native-community/cli init [ProjectName] --template @gerlison/rn-boilerplate
 ```
 
-That's all. Now you just need to install the dependendices and start coding. Follow [initial configuration](https://github.com/Gerlison/rn_boilerplate/blob/master/README.md#initial-configuration) for instructions.
+That's all. Now you just need to install the dependendices and start coding. Follow next step for instructions.
 
 ### Initial Configuration
 
