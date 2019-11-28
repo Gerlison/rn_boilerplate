@@ -94,7 +94,7 @@ src
 
 I don't have a lot of things to tell about myself. If you're curious about who I am, why don't you checkout my [Linkedin](https://www.linkedin.com/in/francisco-gerlison-223791152/) and we can have a cup of coffe?
 
-You can also [email](franciscojerlison1@gmail.com) me, or check my [github](https://github.com/Gerlison/) profile
+You can also email me in `franciscojerlison1@gmail.com`, or check my [github](https://github.com/Gerlison/) profile
 
 It will be a pleasure to exchange an idea with you :)
 
