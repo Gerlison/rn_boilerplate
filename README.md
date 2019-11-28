@@ -18,6 +18,10 @@ To create a project with this template just run the following on your terminal:
 ```shell
 $ npx @react-native-community/cli init [ProjectName] --template @gerlison/rn-boilerplate
 ```
+or with react-native-cli if you prefer
+```shell
+$ npx react-native init [ProjectName] --template @gerlison/rn-boilerplate
+```
 
 That's all. Now you just need to install the dependendices and start coding. Follow next step for instructions.
 
