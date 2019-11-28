@@ -92,12 +92,9 @@ src
 
 ## Author
 
-I don't have a lot of things to tell about myself. If you're curious about who I am, why don't you checkout my social medias and have a cup of coffe? Here the updated ones
+I don't have a lot of things to tell about myself. If you're curious about who I am, why don't you checkout my [Linkedin](https://www.linkedin.com/in/francisco-gerlison-223791152/) and we can have a cup of coffe?
 
-- Linkedin: https://www.linkedin.com/in/francisco-gerlison-223791152/
-- E-mail: franciscojerlison1@gmail.com
-- Github: https://github.com/Gerlison/
-- Instagram: @franciscogerlison
+You can also [email](franciscojerlison1@gmail.com) me, or check my [github](https://github.com/Gerlison/) profile
 
 It will be a pleasure to exchange an idea with you :)
 
