@@ -1,3 +1,7 @@
-import Auth from './Auth/reducer';
+import loading from './Loading/reducer';
+import theme from './Theme/reducer';
 
-export default { Auth };
+export default {
+  loading,
+  theme,
+};

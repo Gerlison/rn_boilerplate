@@ -5,18 +5,12 @@ export const sizing = {
   MEDIUM: 16,
   LARGE: 18,
   LARGER: 22,
-  LARGEST: 28,
+  LARGEST: 24,
 };
 
 export const styling = {
-  FAMILY: {
-    ROBOTO: 'Roboto'
-  },
-
-  WEIGHT: {
-    LIGHT: 200,
-    REGULAR: 400,
-    MEDIUM: 600,
-    BOLD: 900,
-  }
+  ROBOTO_LIGHT: 'Roboto-Light',
+  ROBOTO_REGULAR: 'Roboto-Regular',
+  ROBOTO_MEDIUM: 'Roboto-Medium',
+  ROBOTO_BOLD: 'Roboto-Bold'
 };

@@ -3,18 +3,18 @@ import AsyncStorage from '@react-native-community/async-storage';
 import { persistStore, persistReducer } from 'redux-persist';
 import thunk from 'redux-thunk';
 
-import Auth from './ducks';
+import GlobalDucks from './ducks';
 
 const persistConfig = {
   key: 'root',
   storage: AsyncStorage,
-  whitelist: []
+  whitelist: ['theme']
 }
 
 const middlewares = applyMiddleware(thunk);
 
 const reducers = combineReducers(Object.assign({},
-  Auth,
+  GlobalDucks,
 ));
 
 const persistedReducer = persistReducer(persistConfig, reducers)

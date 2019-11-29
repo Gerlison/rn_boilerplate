@@ -10,7 +10,7 @@ node_modules/react-native/Libraries/polyfills/.*
 
 ; These should not be required directly
 ; require from fbjs/lib instead: require('fbjs/lib/warning')
-node_modules/warning/.*
+node_modules/
 
 ; Flow doesn't support platforms
 .*/Libraries/Utilities/LoadingView.js
@@ -44,6 +44,7 @@ module.name_mapper='^~icons' ->'<PROJECT_ROOT>/src/assets/icons'
 module.name_mapper='^~fonts' ->'<PROJECT_ROOT>/src/assets/fonts'
 module.name_mapper='^~images' ->'<PROJECT_ROOT>/src/assets/images'
 module.name_mapper='^~shared' ->'<PROJECT_ROOT>/src/shared'
+module.name_mapper='^~' ->'<PROJECT_ROOT>/src'
 
 suppress_type=$FlowIssue
 suppress_type=$FlowFixMe
