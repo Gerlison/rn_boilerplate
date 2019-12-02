@@ -14,18 +14,18 @@ import Splash from '~shared/components/Splash';
 
 export default function(): React.Element<any> {
   return (
-    <ErrorBoundary>
-      <Provider store={store}>
-        <PersistGate persistor={persistor}>
-          {bootstrapped => (
-            <Splash bootstrapped={bootstrapped}>
-              <ThemeProvider>
+    <Provider store={store}>
+      <PersistGate persistor={persistor}>
+        {bootstrapped => (
+          <Splash bootstrapped={bootstrapped}>
+            <ThemeProvider>
+              <ErrorBoundary>
                 <Router />
-              </ThemeProvider>
-            </Splash>
-          )}
-        </PersistGate>
-      </Provider>
-    </ErrorBoundary>
+              </ErrorBoundary>
+            </ThemeProvider>
+          </Splash>
+        )}
+      </PersistGate>
+    </Provider>
   );
-};
+}
