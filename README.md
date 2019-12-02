@@ -66,14 +66,14 @@ src
 │        └───navigation/
 │        └───screens/
 └───navigation
-     │   layout.js
+│    │   layout.js
 └───shared
 │   └───components/
 │   └───styles
-         │   colors.js
-         │   metrics.js
-         │   fonts.js
-         │   general.js
+│        │   colors.js
+│        │   metrics.js
+│        │   fonts.js
+│        │   general.js
 │   └───helpers/
 └───store/
 ```
