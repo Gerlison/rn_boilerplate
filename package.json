@@ -13,7 +13,7 @@
     "redux-thunk",
     "rocketseat"
   ],
-  "repository": "git@github.com:Gerlison/rn_boilerplate.git",
+  "repository": "https://github.com/Gerlison/rn_boilerplate.git",
   "homepage": "https://github.com/Gerlison/rn_boilerplate#readme",
   "author": "Gerlison <franciscojerlison1@gmail.com>",
   "license": "MIT"
