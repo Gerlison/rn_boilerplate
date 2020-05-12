@@ -5,6 +5,4 @@
 import {AppRegistry} from 'react-native';
 import App from './App';
 
-const APP_NAME = 'projectname';
-
-AppRegistry.registerComponent(APP_NAME, () => App);
+AppRegistry.registerComponent('project_name', () => App);
