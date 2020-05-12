@@ -1,7 +1,7 @@
 {
   "name": "@gerlison/rn-boilerplate",
   "version": "0.1.12",
-  "description": "A react-native template with react-navigation",
+  "description": "A react-native template",
   "keywords": [
     "react-native",
     "template",
@@ -10,8 +10,7 @@
     "babel-module-resolver",
     "axios",
     "redux",
-    "redux-thunk",
-    "rocketseat"
+    "redux-thunk"
   ],
   "repository": "https://github.com/Gerlison/rn_boilerplate.git",
   "homepage": "https://github.com/Gerlison/rn_boilerplate#readme",
