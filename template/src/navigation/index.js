@@ -1,17 +1,16 @@
-import { createAppContainer } from 'react-navigation';
-import { createStackNavigator } from 'react-navigation-stack';
+import { createAppContainer } from '@react-navigation/core';
+import { createStackNavigator } from '@react-navigation/stack';
 
-import BoilerPlate from '~/modules/BoilerPlate/navigation/layout';
+import BoilerPlate from '@modules/sample';
 
 const AppNavigator = createStackNavigator(
   {
-    Home: BoilerPlate
+    Home: BoilerPlate,
   },
   {
     initialRouteName: 'Home',
-    headerMode: 'none'
-  }
+    headerMode: 'none',
+  },
 );
-
 
 export default createAppContainer(AppNavigator);
