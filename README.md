@@ -43,7 +43,10 @@ Ok, let's run the project
 > For project runs properly, it needs an emulator or device connected.
 
 ```shell
-$ react-native run-android
+$ yarn android
+
+// or
+$ yarn ios
 ```
 
 ## Features
@@ -52,9 +55,9 @@ What's all the bells and whistles this project can perform?
 
 - Folder structure built to grow
 - Easy modules import with babel-module-resolver preconfigured
-- Redux and redux-persist (with whitelist for default) ready to go.
+- Redux ready to go.
 - Theme provider integrated with styled-components, for easy theme management
-- Typing with Flow
+- Configured Reactotron with Redux integration
 
 #### Folder structure
 
@@ -100,16 +103,11 @@ src
 - [React-Navigation](https://reactnavigation.org/docs/en/getting-started.html) - Router
 - [Redux](https://redux.js.org/) - React State Manager
 - [Redux-Thunk](https://github.com/reduxjs/redux-thunk) - Thunk middleware for Redux.
-- [Redux-Persist](https://redux.js.org/) - Data persistor for Redux.
-- [Reselect](https://github.com/reduxjs/reselect) - Simple “selector” library for Redux
 - [Axios](https://github.com/axios/axios) - HTTP Client
-- [Moment](https://github.com/moment/moment/) - JavaScript date library
 - [ESlint](https://eslint.org/) - Linter
-- [Lodash](https://github.com/lodash/lodash) - JavaScript Utility
-- [Flow](https://github.com/facebook/flow) - Static Type Checker
-- [Babel](https://babeljs.io/) - JavaScript Compiler
 - [Styled-Components](https://www.styled-components.com/) - Styles
 - [React-Native-Vector-Icons](https://github.com/oblador/react-native-vector-icons) - Icons
+- [Reactotron](https://github.com/infinitered/reactotron) Tool for inspecting your React JS and React Native apps.
 
 ## Author
 
