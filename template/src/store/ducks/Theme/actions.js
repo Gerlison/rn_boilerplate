@@ -1,10 +1,7 @@
-//@flow
-import * as Types from '~shared/helpers/Types';
-import types from './types';
-const {TOGGLE_THEME} = types;
+import Types from './types';
 
-export function toggleTheme(): Types.Action {
+export function toggleTheme() {
   return {
-    type: TOGGLE_THEME,
+    type: Types.TOGGLE_THEME,
   };
 }

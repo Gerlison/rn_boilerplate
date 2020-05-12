@@ -1,16 +1,17 @@
-import { createAppContainer } from '@react-navigation/core';
+import React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
-import BoilerPlate from '@modules/sample';
+import Sample from '@modules/sample';
 
-const AppNavigator = createStackNavigator(
-  {
-    Home: BoilerPlate,
-  },
-  {
-    initialRouteName: 'Home',
-    headerMode: 'none',
-  },
+const Stack = createStackNavigator();
+
+const MainNavigator = () => (
+  <NavigationContainer>
+    <Stack.Navigator initialRouteName="Home" headerMode="none">
+      <Stack.Screen name="Home" component={Sample} />
+    </Stack.Navigator>
+  </NavigationContainer>
 );
 
-export default createAppContainer(AppNavigator);
+export default MainNavigator;

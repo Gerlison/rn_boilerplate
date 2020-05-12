@@ -25,6 +25,7 @@
     "linebreak-style": [1],
     "no-unused-vars": [1],
     "react/jsx-props-no-spreading": [0],
+    "react/prop-types": [0],
     "import/no-unresolved": [2],
     "object-curly-newline": [0],
     "import/prefer-default-export": [0],

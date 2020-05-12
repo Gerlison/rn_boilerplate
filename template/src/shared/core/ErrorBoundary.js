@@ -1,57 +1,62 @@
-//@flow
-import * as React from 'react';
-import { ScrollView } from 'react-native'
-import { Container, Text } from "../styles/general";
+import React, { Component } from 'react';
+import { SafeAreaView } from 'react-native';
+import styled from 'styled-components/native';
 
-type Props = {
-  children: React.Element<any>
-}
+import { sizing } from '@styles/fonts';
+import Text from '@core/Text';
 
-type State = {
-  hasError: boolean,
-  error: Object,
-  errorInfo: Object 
-}
-
-class ErrorBoundary extends React.Component<Props, State> {
-  constructor(props: Props) {
+class ErrorBoundary extends Component {
+  constructor(props) {
     super(props);
     this.state = {
       hasError: false,
       error: null,
-      errorInfo: null
     };
   }
 
-  static getDerivedStateFromError(error: Object) {
-    return {hasError: true, error};
-  }
-
-  componentDidCatch(error: Object, errorInfo: Object) {
-    // logErrorToMyService(error, errorInfo);
-    this.setState({errorInfo})
+  static getDerivedStateFromError(error) {
+    return { hasError: true, error };
   }
 
   render() {
-    const { hasError, error, errorInfo } = this.state;
+    const { hasError, error } = this.state;
+    const { children } = this.props;
+
     if (hasError) {
       return (
-        <ScrollView>
-          <Container style={{justifyContent: 'center', padding: 18}}>
-            <Text weight="BOLD" size="LARGER" color="DANGER">
+        <>
+          <SafeAreaView />
+          <StyledStatusBar />
+          <StyledScrollView>
+            <Text size="LARGER" color="DANGER">
               Algo de errado não está certo!
             </Text>
-            <Text>{error.toString()}</Text>
-            <Text color="SECUNDARY_LIGHT">
-              {errorInfo && JSON.stringify(errorInfo)}
-            </Text>
-          </Container>
-        </ScrollView>
+            <Text>{error?.toString()}</Text>
+          </StyledScrollView>
+        </>
       );
     }
 
-    return this.props.children;
+    return (
+      <>
+        <StyledStatusBar />
+        {children}
+      </>
+    );
   }
 }
+
+const StyledScrollView = styled.ScrollView.attrs(() => ({
+  contentContainerStyle: {
+    flexGrow: 1,
+    justifyContent: 'center',
+    padding: sizing.MEDIUM,
+  },
+}))``;
+
+const StyledStatusBar = styled.StatusBar.attrs(({ theme }) => ({
+  backgroundColor: theme.BACKGROUND,
+  barStyle: 'dark-content',
+}))``;
 
 export default ErrorBoundary;

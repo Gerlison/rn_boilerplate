@@ -1,26 +1,17 @@
-// @flow
 import React from 'react';
-import * as Types from '../helpers/Types';
+import { useSelector } from 'react-redux';
+import { ThemeProvider as StyledProvider } from 'styled-components';
 
-import { ThemeProvider as StyledComponentsProvider } from 'styled-components';
-import { connect } from "react-redux";
+const ThemeProvider = ({ children }) => {
+  const {
+    theme: { currentTheme, theme },
+  } = useSelector((state) => state);
 
-function ThemeProvider(props: Props) {
   return (
-    <StyledComponentsProvider theme={{...props.theme, currentTheme: props.currentTheme}}> 
-      {React.cloneElement(React.Children.only(props.children))}
-    </StyledComponentsProvider>
+    <StyledProvider theme={{ ...theme, currentTheme }}>
+      {children}
+    </StyledProvider>
   );
-}
+};
 
-type Props = {
-  children: Array<Function>,
-  theme: Object,
-  currentTheme: string
-}
-
-function mapStateToProps(state: Types.State): Object {
-  return Object.assign({}, state.theme)
-}
-
-export default connect(mapStateToProps)(ThemeProvider);
+export default ThemeProvider;

@@ -22,7 +22,6 @@ export const LIGHT_THEME = {
   ERROR: '',
   DANGER: '#E26C6C',
   WARNING: '',
-
 };
 
 export const DARK_THEME = {
@@ -49,5 +48,4 @@ export const DARK_THEME = {
   ERROR: '',
   DANGER: '#E26C6C',
   WARNING: '',
-
 };
