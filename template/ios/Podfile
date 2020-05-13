@@ -77,9 +77,7 @@ target 'project_name' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  pod 'RNGestureHandler', :podspec => '../node_modules/react-native-gesture-handler/RNGestureHandler.podspec'
-
-  target 'rn_updatedTests' do
+  target 'project_nameTests' do
     inherit! :complete
     # Pods for testing
   end
