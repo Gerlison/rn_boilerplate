@@ -1,5 +1,3 @@
-const context = 'theme';
-
 export default {
-  TOGGLE_THEME: `${context}/TOGGLE_THEME`,
+  TOGGLE_THEME: 'theme/TOGGLE_THEME',
 };

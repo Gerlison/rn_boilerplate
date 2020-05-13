@@ -7,12 +7,3 @@ export const spacing = {
   LARGER: 22,
   LARGEST: 28,
 };
-
-export const dimensions = {
-  button: {
-    RADIUS: 10,
-    HEIGHT: 50,
-    MARGIN: spacing.LARGE,
-    PADDING: spacing.MEDIUM
-  }
-}

@@ -1,26 +1,15 @@
-import {createStore, combineReducers, applyMiddleware} from 'redux';
-import AsyncStorage from '@react-native-community/async-storage';
-import { persistStore, persistReducer } from 'redux-persist';
+import { createStore, combineReducers, applyMiddleware, compose } from 'redux';
 import thunk from 'redux-thunk';
+
+import Reactotron from '@services/reactotron';
 
 import GlobalDucks from './ducks';
 
-const persistConfig = {
-  key: 'root',
-  storage: AsyncStorage,
-  whitelist: ['theme']
-}
+const reducers = combineReducers({ ...GlobalDucks });
 
-const middlewares = applyMiddleware(thunk);
+const middlewares = compose(
+  applyMiddleware(thunk),
+  __DEV__ ? Reactotron.createEnhancer() : () => {},
+);
 
-const reducers = combineReducers(Object.assign({},
-  GlobalDucks,
-));
-
-const persistedReducer = persistReducer(persistConfig, reducers)
-
-export default () => {
-  let store = createStore(persistedReducer, middlewares);
-  let persistor = persistStore(store);
-  return { store, persistor };
-}
+export default createStore(reducers, middlewares);
