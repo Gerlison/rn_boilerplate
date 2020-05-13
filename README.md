@@ -1,7 +1,5 @@
 [![npm](https://img.shields.io/npm/v/@gerlison/rn-boilerplate)](https://www.npmjs.com/package/@gerlison/rn-boilerplate) [![License: MIT](https://img.shields.io/github/license/nd-02110114/goofi-mobile.svg)](https://opensource.org/licenses/MIT)
 
-> TEMPORARILY out of order
-
 # REACT-NATIVE BOILERPLATE
 
 A react-native template with essencial libraries, configurations and facilities for fresh projects.
