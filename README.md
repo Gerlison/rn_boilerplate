@@ -19,25 +19,6 @@ To create a project with this template just run the following on your terminal:
 $ npx @react-native-community/cli init [project_name] --template @gerlison/rn-boilerplate
 ```
 
-or with react-native-cli if you prefer
-
-```shell
-$ npx react-native init [project_name] --template @gerlison/rn-boilerplate
-```
-
-That's all. Now you just need to install the dependendices and start coding. Follow next step for instructions.
-
-### Initial Configuration
-
-You've just created your project, now to install all dependencies it requires, run:
-
-```shell
-$ cd [project_name]/
-
-// npm or yarn
-$ [packagemanager] install
-```
-
 Ok, let's run the project
 
 > For project runs properly, it needs an emulator or device connected.
@@ -54,12 +35,8 @@ $ yarn ios
 What's all the bells and whistles this project can perform?
 
 - Folder structure built to grow
-- Easy modules import with babel-module-resolver preconfigured
-- Redux ready to go.
-- Theme provider integrated with styled-components, for easy theme management
-- Configured Reactotron with Redux integration
-
-#### Folder structure
+  - When working on large projects, the way it was configured on the initial stage can take you to a big headache. To avoid that, I decided to develop my own folder structure based on my experience with other project structures.
+  - As you can see in the tree below, I chose to have a **modules** folder. This folder would be responsible for the features. So let`s supose you have an _authentication_ feature. It'd be one of the folders inside modules.
 
 ```
 src
@@ -96,6 +73,30 @@ src
 │    └───useCases/
 │    │   index.js
 ```
+
+- Easy modules import with babel-module-resolver preconfigured
+  - To avoid pain of having large absolute pathes on multiple imports, I've implemented the babel-module-resolver.
+  - With that, you can import your files using the alias `@modules/`, `@core/`, etc.
+- Redux ready to go.
+  - Redux is explained by it self.
+  - Here I've implemented it following a little modified duck pattern. The difference in this template, is that each feature have it's own ducks and useCases. You can see that in the tree above.
+- Theme provider integrated with styled-components, for easy theme management
+  - An amazing tool that gives to your component so much more intuitivity. It has also the power of letting you manage theme colors shared in the entire app. Making it easier to use the colors without import any files.
+  - You can customize it to share whatever you want. But be careful to not overload.
+- Configured Reactotron with Redux integration
+  - One of the pains when working with react-native is debug API requests and redux store. To help with that, the template comes with **reactotron**. You just need to have it installed on your computer.
+- A set of npm scripts to make your life easier
+  - `android` -> run for android
+  - `ios` -> run for ios
+  - `start` -> starts the JsBundler
+  - `cleanModules` -> delete and reinstall all libraries
+  - `cleanWatchman` -> clear watchman cache
+  - `cleanAndroidCache` -> clear gradlew cache
+  - `clearAndroid` -> run android with all cache cleaned and reinstalled libs
+  - `clearIos` -> run ios with all cache cleaned and reinstalled libs and pods
+  - `test` -> run jest
+  - `lint` -> run eslint
+  - `linkDevice` -> run reverse adb on both ports, 8081 and 9090
 
 ## Built with
 
