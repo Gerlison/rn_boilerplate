@@ -10,4 +10,4 @@ if (__DEV__) {
   console.tron = tron;
 }
 
-AppRegistry.registerComponent('project_name', () => App);
+AppRegistry.registerComponent('ProjectName', () => App);
