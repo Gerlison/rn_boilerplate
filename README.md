@@ -1,4 +1,4 @@
-[![npm](https://img.shields.io/npm/v/@gerlison/rn-boilerplate)](https://www.npmjs.com/package/@gerlison/rn-boilerplate) [![License: MIT](https://img.shields.io/github/license/nd-02110114/goofi-mobile.svg)](https://opensource.org/licenses/MIT)
+[![npm](https://img.shields.io/npm/v/@gerlison/rn-boilerplate)](https://www.npmjs.com/package/@gerlison/rn-boilerplate) [!![GitHub](https://img.shields.io/github/license/Gerlison/rn_boilerplate)
 
 # REACT-NATIVE BOILERPLATE
 
