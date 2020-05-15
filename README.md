@@ -1,4 +1,5 @@
-[![npm](https://img.shields.io/npm/v/@gerlison/rn-boilerplate)](https://www.npmjs.com/package/@gerlison/rn-boilerplate) [!![GitHub](https://img.shields.io/github/license/Gerlison/rn_boilerplate)
+[![npm](https://img.shields.io/npm/v/@gerlison/rn-boilerplate)](https://www.npmjs.com/package/@gerlison/rn-boilerplate) 
+![GitHub](https://img.shields.io/github/license/Gerlison/rn_boilerplate)
 
 # REACT-NATIVE BOILERPLATE
 
