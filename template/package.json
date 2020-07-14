@@ -12,7 +12,7 @@
     "clearAndroid": "yarn cleanModules; yarn cleanAndroidCache;  yarn android; yarn start --reset-cache",
     "clearIos": "yarn cleanModules; cd ios/; pod deintegrate; pod install; cd ..; yarn cleanWatchman; yarn ios; yarn start --reset-cache",
     "test": "jest",
-    "lint": "eslint ./src/**",
+    "lint": "eslint ./src/",
     "linkDevice": "adb reverse tcp:8081 tcp:8081; adb reverse tcp:9090 tcp:9090"
   },
   "dependencies": {
