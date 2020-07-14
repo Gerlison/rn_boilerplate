@@ -4,8 +4,6 @@ import tron from 'reactotron-react-native';
 
 import App from './App';
 
-require('react-native').unstable_enableLogBox();
-
 if (__DEV__) {
   console.tron = tron;
 }
