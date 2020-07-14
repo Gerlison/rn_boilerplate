@@ -12,9 +12,6 @@
     "redux",
     "redux-thunk"
   ],
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "repository": "https://github.com/Gerlison/rn_boilerplate.git",
   "homepage": "https://github.com/Gerlison/rn_boilerplate#readme",
   "author": "Gerlison <franciscojerlison1@gmail.com>",
