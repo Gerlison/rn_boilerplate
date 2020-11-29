@@ -10,7 +10,7 @@
     "babel-module-resolver",
     "axios",
     "redux",
-    "redux-thunk"
+    "redux-saga"
   ],
   "repository": "https://github.com/Gerlison/rn_boilerplate.git",
   "homepage": "https://github.com/Gerlison/rn_boilerplate#readme",

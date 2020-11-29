@@ -25,8 +25,8 @@ const MOCK = [
       },
       {
         id: 2,
-        title: 'REDUX-THUNK',
-        author: 'REDUXJS',
+        title: 'REDUX-SAGA',
+        author: 'REDUX-SAGA',
       },
     ],
   },
