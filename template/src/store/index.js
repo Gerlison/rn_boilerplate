@@ -1,15 +1,19 @@
-import { createStore, combineReducers, applyMiddleware, compose } from 'redux';
-import thunk from 'redux-thunk';
+import { configureStore, combineReducers } from '@reduxjs/toolkit';
+import createSagaMiddleware from 'redux-saga';
 
-import Reactotron from '@services/reactotron';
+import reactotron from '@services/reactotron';
 
-import GlobalDucks from './ducks';
+import sharedSlices from './slices';
+import sharedSagas from './sagas';
 
-const reducers = combineReducers({ ...GlobalDucks });
+const reducer = combineReducers({ ...sharedSlices });
 
-const middlewares = compose(
-  applyMiddleware(thunk),
-  __DEV__ ? Reactotron.createEnhancer() : () => {},
-);
+const sagaMiddleware = createSagaMiddleware();
 
-export default createStore(reducers, middlewares);
+export default configureStore({
+  reducer,
+  middleware: [sagaMiddleware],
+  enhancers: __DEV__ ? [reactotron.createEnhancer()] : undefined,
+});
+
+sagaMiddleware.run(sharedSagas);
